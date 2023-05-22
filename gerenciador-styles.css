@@ -12,6 +12,14 @@ html {
   background-color: #181818;
   color: #fff;
 }
+
+a,
+a:hover,
+a:visited {
+  color: unset;
+  text-decoration: none;
+}
+
 button {
   font-weight: 700;
   font-size: 23px;
@@ -25,13 +33,6 @@ button {
   border-radius: 10px;
   cursor: pointer;
   margin: 10px;
-}
-
-a,
-a:hover,
-a:visited {
-  color: unset;
-  text-decoration: none;
 }
 
 header {
